@@ -1,0 +1,25 @@
+.contactsList {
+  list-style: none;
+  padding: 0;
+  width: 500px;
+  margin-left: 400px;
+}
+.contactsItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 500;
+  /* color: white; */
+}
+.contactsDeleteBtn {
+  width: 100px;
+  height: 30px;
+  background-color: blueviolet;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+.contactsDeleteBtn:hover {
+  background-color: orange;
+}
